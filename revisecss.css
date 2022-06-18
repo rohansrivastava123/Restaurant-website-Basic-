@@ -1,0 +1,433 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container
+{
+    display: flex;   
+    border-radius: 10px;
+    position: relative;
+}
+
+.logo img{
+    max-width: 100%;
+    height: 80%;
+    margin-top: 5px;
+    
+     
+}
+.logo{
+    max-width: 100px;
+   
+}
+.items{
+    list-style: none;
+    
+    
+}
+.items a{
+text-decoration: none;
+padding: 10px;
+display: block;  
+color: black;
+font-family: 'Kiwi Maru', serif;
+font-size: large;
+font-weight: 900;
+margin: 0 10px;
+white-space: nowrap;
+
+
+}
+.items a:hover{
+    text-decoration: underline;
+   text-decoration-color: red;
+   text-decoration-thickness: 5px;
+   text-decoration-style: solid;
+}
+.container ul{
+    display: flex;
+    margin: 20px;
+    margin-left: 60%;
+    margin-top: 2%;
+    margin-right: 5%;
+    
+}
+.searchbox,.suggestions
+{
+    position: absolute;
+    left:52%;
+    top:40%;
+    
+}
+.searchbox img
+{
+    width: 8%;
+    position:absolute;
+    top:5%;
+    left:5%;
+}
+.textb
+{
+    border-radius: 20px;
+    border:none;
+    height:20px;
+    outline: none;
+    padding:10px;
+    width:fit-content;
+}
+.suggestions
+{
+    top:90%;
+    left:-50%;
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+    white-space: nowrap;
+
+
+}
+/* styling background image */
+.items_li{
+    border:2px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    background-color: rgb(238, 203, 157);
+    list-style-type: none;
+    padding: 5px 100px 5px 5px;
+    border-radius:10px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.container::before
+{
+    content: "";
+    position: absolute;
+    background-color:wheat;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.9;    
+}
+.bgimg
+{
+    display: flex;
+    flex-direction: column;
+    height: 610px   ;
+    align-items: end;
+}
+.bgimg::before
+{
+    content: "";
+    position: absolute;
+    background: url('../pizza plaza websites/images/wallpaperpizza.jpg') no-repeat center center/cover;
+    background-size:100%;
+    height: 100%;
+    top:0px;
+    width: 100%;
+    z-index: -2;
+    opacity:0.8;
+
+}
+.bgimg h1,.btn{
+    font-family: 'Kiwi Maru', serif;
+    margin-right: 4%;    
+}
+.bgimg h3{
+    font-family: 'Kiwi Maru', serif;
+    /* margin-top: 10%; */
+    margin-right: 6%;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.bgimg h1{
+    margin-top: 10%;
+    font-size: 100px;
+}
+
+.btn{
+    
+    padding: 10px;
+    background-color: rgba(245, 222, 179, 0.9);
+    border-radius: 5px;
+    z-index: 1;
+    margin-right: 23%;
+    font-size: 20px;  
+}
+.btn1
+{
+    padding: 3Px;
+    background-color: rgba(245, 222, 179, 0.9);
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 15px; 
+}
+.btn:hover,.btn1
+{
+    background-color: rgba(245, 222, 179, 0.6);
+    cursor: pointer; 
+}
+.img1,.img2,.img3,.img4
+{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;;
+}
+.imgs
+{
+    display: flex;
+    margin-top: 100px;
+}
+.services h1{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 40px;
+    background-color: antiquewhite;  
+     
+}
+.explore
+{
+    height: 40rem;;
+}
+.subh
+{
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 20px;
+    
+}
+.s2
+{
+    margin-left: 40px;
+}
+.s1
+{
+    margin-left: 20px;
+}
+.btn2
+{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    padding: 10px;
+    background-color: #da291c;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-right: 23%;
+    left: 45%;
+    top: 5rem;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10%;
+}
+.btn2:hover
+{
+    background-color: #bb0105  
+}
+.cusrev
+{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+.revs::before{
+    content: "";
+    position: absolute;
+    background: url('images/wallpaperimg.jpg');
+    height: 30rem;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+.revs
+{
+    display: flex;
+    gap: 2rem;
+    margin: 10px;
+    justify-content: center;
+}
+.r img{
+  
+    width:20%;
+    height: auto;
+    padding: 10px;
+}
+.r{
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:  whitesmoke;
+}
+.r p{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.r2 img
+{
+    margin-left: 180px;
+}
+.r h6{
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    color: grey;
+}
+.r3 img{
+    margin-left: 40%;
+}
+.r1 img{
+    margin-left: 38%;
+}
+.r
+{
+    height: 300px;
+}
+
+.review
+{
+    height: 600px;
+}
+.r2{
+    width: 33%;
+}
+.r1{
+    width: 33%;
+}
+.r3
+{
+    width: 33%;
+}
+
+
+.footer
+{
+    background-color: antiquewhite;
+    height: 200px;
+}
+.flogo{
+    display: flex;
+    
+}
+.flogo2
+{
+    display: flex;
+}
+.flogo img
+{
+    height: 5rem;
+    margin: 10px;
+    
+}
+.o{
+    margin-right: 350px;
+}
+.flogo h3{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 3rem;
+    margin: 10px;
+    margin-right: 350px;   
+}
+.fpara {
+   
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    font-style: italic;
+    margin-left: 110px;
+    margin-right: 300px;
+
+}
+.flogo h4{
+    margin-top: 2rem;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.oh
+{
+    font-family: 'Kiwi Maru', serif;
+    font-size: 1rem;
+    margin-right: 320px;
+    
+}
+.links img
+{
+    width:30px;
+    height: auto;
+}
+.l1
+{
+    margin-right: 20px;
+}
+.l2
+{
+    margin-right: 20px;
+}
+.footer{
+    margin-bottom: 5px;
+}
+.imageslider
+{
+    display:flex;
+    overflow: hidden;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.img5
+{
+  width: 20%;
+}
+.img{
+    flex:1;
+    position: relative;
+    transition: font-size 0.7s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+    flex 0.7s cubic-bezier(0.6, 0.04, 0.98, 0.335),
+    background 0.2s;
+}
+.img{
+    height:500px;
+    z-index: -2;
+    
+}
+.img h3{
+    position:absolute;
+    top:47%;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace  ;
+    font-size: 50px;
+    left:19%;
+    
+}
+.img3 h3{
+    left:30%;
+}
+.img button{
+    position:absolute;
+    top:80%;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace  ;
+    font-size: 50px;
+    left:5%;
+    z-index: 1;
+    background: none;
+    border-radius: 5px;
+    
+}
+.open
+{
+    display: none;
+}
