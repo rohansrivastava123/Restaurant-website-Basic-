@@ -1,0 +1,83 @@
+[
+   
+   {
+    "item": "Pizza",
+    "price":"200"
+   },
+   {
+    "item": "Sandwiches",
+    "price":"100"
+   },
+   {
+    "item": "Crispy corn",
+    "price":"50"
+   },
+   {
+    "item": "Chili potato",
+    "price":"100"
+   },
+   {
+    "item": "Shakes",
+    "price":"99"
+   },
+   {
+    "item": "Burgers",
+    "price":"70"
+   },
+   {
+    "item": "Manchurian ",
+    "price":"150"
+   },
+   {
+    "item": "Chili paneer",
+    "price":"180"
+   },
+   {
+    "item": "Fried rice",
+    "price":"120"
+   },
+   {
+    "item": "Noodles",
+    "price":"100"
+   },
+   {
+    "item": "Momos",
+    "price":"80"
+   },
+   {
+    "item": "Hotdog",
+    "price":"60"
+   },
+   {
+    "item": "Pav bhaji",
+    "price":"130"
+   },
+   {
+    "item": "Spring roll",
+    "price":"100"
+   },
+   {
+    "item": "French Fries",
+    "price":"50"
+   },
+   {
+    "item": "cold drinks",
+    "price":"70"
+   },
+   {
+    "item": "Ice creams",
+    "price":"80"
+   },
+   {
+    "item": "Indian dishes",
+    "price":"150"
+   },
+   {
+    "item": "Breads",
+    "price":"40"
+   }
+]
+
+
+
+
